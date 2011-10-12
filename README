@@ -1,4 +1,4 @@
-Build scripts for cross-compiling OpenOCD on Windows via mingw32 on Linux
+Build scripts for cross-compiling OpenOCD for Windows (via mingw32 on Linux)
 
 NOTE: Currently these scripts only support Debian GNU/Linux. Other distros *should* work with minor changes. 
 
