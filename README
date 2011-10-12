@@ -1,6 +1,6 @@
 Build scripts for cross-compiling OpenOCD on Windows via mingw32 on Linux
 
-NOTE: Currently only Debian is supported.
+NOTE: Currently these scripts only support Debian GNU/Linux. Other distros *should* work with minor changes. 
 
 INSTRUCTIONS:
 
@@ -8,7 +8,7 @@ INSTRUCTIONS:
 2. Run build.sh to start the build
 
 build.sh will:
-- install any missing packages that are requied (e.g. gcc-mingw32)
+- install any missing packages that are required (e.g. gcc-mingw32)
 - download and cross-compile libusb-win32-src-1.2.5.0
 - download and cross-compile libftdi-0.19 (w/ libusb-win32)
 - clone openocd git repository and cross-compile (w/ libftdi support)
